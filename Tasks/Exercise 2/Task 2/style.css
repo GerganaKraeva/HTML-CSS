@@ -1,0 +1,13 @@
+/*
+
+
+article>span:not(:first-child){
+    color: red;
+}
+
+*/
+
+p ~ span{
+    color: red;
+}
+

@@ -1,0 +1,4 @@
+article>span:first-child, article>span:last-child{
+    background-color: red;
+    color: white;
+}
