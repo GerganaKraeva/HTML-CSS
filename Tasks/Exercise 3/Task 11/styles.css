@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  border: 1px solid black;
+  padding-left: 0.2em;
+  padding-top: 0.2em;
+  padding-bottom: 1.5em;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+  position: relative;
+}
+
+#two {
+  top: 20px;
+  left: 20px;
+  background: blue;
+  position: absolute;
+  transform: translateY(-10%);
+  transform: translateX(-10%);
+
+}

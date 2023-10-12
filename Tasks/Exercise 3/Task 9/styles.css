@@ -1,0 +1,12 @@
+body{
+  margin: 0;
+  border: 1px solid black;
+}
+
+
+p {
+  font-weight: bold;
+  background-color: coral;
+  margin: 0.3em 0.3em;
+  border: 2px solid blue;
+}

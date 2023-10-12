@@ -1,0 +1,13 @@
+body{
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  border: 2px solid black;
+}
+
+p {
+  font-weight: bold;
+  background-color: coral;
+  
+}
