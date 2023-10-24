@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation-Flexbox</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        html{
+            font: 16px/1.5 Verdana, san-serif;
+        }
+        body{
+            padding: 4em;
+        }
+
+        p{
+            padding-bottom: 1.5em;
+        }
+        h2{
+            font-family: Georgia,  serif;
+        }
+
+        header {
+            border-bottom: 2px solid rgb(0, 0, 0);
+            display: flex;
+            padding-bottom: 1em; /* razstoqnie pod site title*/
+            margin-bottom: 1em;
+            justify-content: space-between;
+        
+        }
+        nav ul li{
+            list-style: none outside; /*  за да махна стилизацията на ли */
+            display: block;
+        }
+        nav ul{
+            display: flex;
+            gap:1em;
+        }
+
+        nav a {
+            color: rgb(0, 153, 0);
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Site title</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Heading level 1</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eligendi natus vitae neque ab optio quas, ducimus aut minima, incidunt placeat ex aliquid? Consequatur nam dolorum at, omnis nulla magni?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eligendi natus vitae neque ab optio quas, ducimus aut minima, incidunt placeat ex aliquid? Consequatur nam dolorum at, omnis nulla magni?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eligendi natus vitae neque ab optio quas, ducimus aut minima, incidunt placeat ex aliquid? Consequatur nam dolorum at, omnis nulla magni?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eligendi natus vitae neque ab optio quas, ducimus aut minima, incidunt placeat ex aliquid? Consequatur nam dolorum at, omnis nulla magni?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eligendi natus vitae neque ab optio quas, ducimus aut minima, incidunt placeat ex aliquid? Consequatur nam dolorum at, omnis nulla magni?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eligendi natus vitae neque ab optio quas, ducimus aut minima, incidunt placeat ex aliquid? Consequatur nam dolorum at, omnis nulla magni?</p>
+
+    </main>
+
+</body>
+
+</html>
